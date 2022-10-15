@@ -1,0 +1,115 @@
+body {
+  font-family: Arial;
+  height: 100%;
+  background-image: url("https://imgs.search.brave.com/phwl8wgnR8IAngBrLCeDyA-6ld79CodkYrUKu179dWE/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3RpL3ZlY3Rl/dXItbGlicmUvcDIv/ODMwOTI3LWF1dG9t/bmUtcHJhaXJpZS1w/YXlzYWdlLWF2ZWMt/bW9udGFnbmVzLWZv/bmQtZ3JhdHVpdC12/ZWN0b3JpZWwuanBn");
+  background-size: cover;
+}
+
+
+#containeurImage img {
+  width: 35vh;
+  display: flex;
+  margin: auto;
+}
+
+#jeux {
+  width: 80%;
+  margin: auto;
+}
+
+.row {
+  width: 100%;
+  align-content: center;
+  margin: auto;
+}
+
+#zoneInfo {
+  font-size: 20px;
+  background-color: #FFD7C5;
+  opacity: 90%;
+  border: 6px double #C5EDFF;
+  border-radius: 40px;
+}
+
+#divPrincipalClavier {
+  display: flex;
+  height: 100%;
+  margin: auto;
+}
+
+#divPrincipalClavier button {
+  border-radius: 10px;
+  margin: 5px;
+}
+
+
+button:hover {
+  background-color: #A0C1FF;
+}
+
+button {
+  width: 3rem;
+  height: 3rem;
+  font-size: 2rem;
+  border: 2px inset #C5EDFF;
+}
+
+#motMystere {
+  width: 100%;
+  text-align: center;
+  font-size: 200%;
+  letter-spacing: 5px;
+  background-color: #FFD7C5;
+  border: 6px inset #C5EDFF;
+  border-radius: 40px;
+}
+
+#information {
+  width: 100%;
+  text-align: center;
+}
+
+#clavier{
+  margin: auto;
+}
+
+.green {
+  background-color: #C1FFA0;
+}
+
+.red {
+  background-color: #FFA0C1;
+}
+
+@media (max-width: 980px) {
+  .brClavier{
+    display: none;
+  }
+}
+
+@media (max-width: 760px) {
+
+  #jeux {
+    height: 100%;
+  }
+
+  #containeurImage img {
+    width: 25vh;
+  }
+
+  #divPrincipalClavier button {
+    width: 20%;
+    height: 20%;
+    margin: 3px 0;
+  }
+
+  #zoneInfo {
+    font-size: 15px;
+    margin: 28px 0;
+  }
+
+  #motMystere {
+    margin: 5px auto;
+  }
+
+}
